@@ -1,6 +1,6 @@
 import React from "react";
 // Komponente für die Atk und Def Stats.
-function PokeFightStats({ pokemon }) {
+function PokemonStats({ pokemon }) {
   const attack = pokemon.base.Attack;
   const spAttack = pokemon.base["Sp. Attack"];
   const defense = pokemon.base.Defense;
@@ -29,4 +29,4 @@ function PokeFightStats({ pokemon }) {
   );
 }
 
-export default PokeFightStats;
+export default PokemonStats;

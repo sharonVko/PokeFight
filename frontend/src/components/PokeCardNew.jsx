@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import HpBar from "./HpBar";
-import PokeFightStats from "./PokeFightStats";
 import getTypeColor from "./TypeColor";
+import PokemonStats from "./PokemonStats";
 
 const PokeCardNew = ({ pokemon }) => {
   const [hp, setHp] = useState(pokemon.base.HP);
@@ -33,7 +33,7 @@ const PokeCardNew = ({ pokemon }) => {
         <HpBar maxHp={pokemon.base.HP} hp={hp} />
         {/* Stats */}
         <div>
-          <PokeFightStats pokemon={pokemon} />
+          <PokemonStats pokemon={pokemon} />
         </div>
       </div>
     </div>
