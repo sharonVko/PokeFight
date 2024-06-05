@@ -11,32 +11,33 @@ function Shuffle() {
   const contextValue = useContext(Context);
   console.log(contextValue);
   return (
-    <div className="w-full h-full flex flex-col justify-center">
-      <div className="grid grid-cols-2 gap-8">
-        <div className="flex justify-center bg-black/50">
-          <CardBack />
+    <>
+      <div className="w-full h-full flex flex-col justify-center">
+        <div className="grid grid-cols-2 gap-8">
+          <div className="flex justify-center bg-black/50">
+            <CardBack />
+          </div>
+          <div className="flex justify-center bg-black/50">
+            <CardBack />
+          </div>
         </div>
-        <div className="flex justify-center bg-black/50">
-          <CardBack />
+        <PulseButton view="fight" />
+        <div className="grid grid-cols-3 gap-8">
+          <div>
+            <img className="mx-auto pl-[10vw]" src={questMark} />
+          </div>
+          <div>
+            <img className="mx-auto w-full max-w-64" src={cardStack} />
+          </div>
+          <div>
+            <img className="mx-auto pr-[10vw]" src={questMark} />
+          </div>
         </div>
       </div>
-      <PulseButton view="fight" />
-      <div className="grid grid-cols-3 gap-8">
-        <div>
-          <img className="mx-auto pl-[10vw]" src={questMark} />
-        </div>
-        <div>
-          <img className="mx-auto w-full max-w-64" src={cardStack} />
-        </div>
-        <div>
-          <img className="mx-auto pr-[10vw]" src={questMark} />
-        </div>
-      </div>
-    </div>
-    // <>
-    // 	<div>Shuffle</div>
-    // 	<button onClick={() => navigate('/fight')}>Click</button>
-    // </>
+
+      <div>Shuffle</div>
+      <button onClick={() => navigate("/fight")}>Click</button>
+    </>
   );
 }
 
