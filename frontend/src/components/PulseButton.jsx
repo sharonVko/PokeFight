@@ -1,14 +1,15 @@
 import shuffleBtn from "../assets/fontshuffledealblk.png";
 import fightBtn from "../assets/fontfightblk2.png";
+import resultBtn from "../assets/fontviewscore.png";
 
 function PulseButton({ view }) {
   console.log(view);
   let btn;
   if (view === "shuffle") btn = shuffleBtn;
   if (view === "fight") btn = fightBtn;
-
+  if (view === "result") btn = resultBtn;
   return (
-    <button className="my-8 max-w-56 mx-auto animate-ping bg-sky-400 opacity-75 delay-1000">
+    <button className="my-8 max-w-48 mx-auto animate-pulse">
       <img src={btn} />
     </button>
   );

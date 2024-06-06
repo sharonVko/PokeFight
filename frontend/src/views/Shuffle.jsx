@@ -21,16 +21,16 @@ function Shuffle() {
             <CardBack />
           </div>
         </div>
-        <PulseButton view="fight" />
+        <PulseButton view="shuffle" />
         <div className="grid grid-cols-3 gap-8">
           <div>
-            <img className="mx-auto pl-[10vw]" src={questMark} />
+            <img className="mx-auto pl-[10vw] animate-bounce" src={questMark} />
           </div>
           <div>
-            <img className="mx-auto w-full max-w-64" src={cardStack} />
+            <img className="mx-auto w-full max-w-64 " src={cardStack} />
           </div>
           <div>
-            <img className="mx-auto pr-[10vw]" src={questMark} />
+            <img className="mx-auto pr-[10vw] animate-bounce" src={questMark} />
           </div>
         </div>
       </div>
