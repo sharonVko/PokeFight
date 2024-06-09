@@ -32,7 +32,7 @@ function Arena() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-      navigate("/shuffle");
+      navigate("/arena/shuffle");
     }, 1000);
   }, []);
 

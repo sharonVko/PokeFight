@@ -16,4 +16,12 @@
   .arena-inner {
     @apply max-w-[800px] lg:max-w-[70%] mx-auto flex flex-col h-full items-center bg-white/10;
   }
+  .brick-background {
+    /* @apply bg-[url('./assets/darkbrickentrance.jpg')] bg-no-repeat bg-center bg-cover  w-screen h-screen; */
+    /* min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./assets/darkbrickentrance.jpg"); */
+  }
 }

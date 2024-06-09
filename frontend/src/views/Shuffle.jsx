@@ -24,7 +24,10 @@ function Shuffle() {
         <PulseButton view="shuffle" />
         <div className="grid grid-cols-3 gap-8">
           <div>
-            <img className="mx-auto pl-[10vw] animate-bounce" src={questMark} />
+            <img
+              className="mx-auto pl-[10vw]  animate-bounce"
+              src={questMark}
+            />
           </div>
           <div>
             <img className="mx-auto w-full max-w-64 " src={cardStack} />

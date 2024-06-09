@@ -1,3 +1,4 @@
+import startBtn from "../assets/fontstart.png";
 import shuffleBtn from "../assets/fontshuffledealblk.png";
 import fightBtn from "../assets/fontfightblk2.png";
 import resultBtn from "../assets/fontviewscore.png";
@@ -5,6 +6,7 @@ import resultBtn from "../assets/fontviewscore.png";
 function PulseButton({ view }) {
   console.log(view);
   let btn;
+  if (view === "start") btn = startBtn;
   if (view === "shuffle") btn = shuffleBtn;
   if (view === "fight") btn = fightBtn;
   if (view === "result") btn = resultBtn;
