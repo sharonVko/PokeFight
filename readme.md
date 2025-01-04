@@ -33,8 +33,6 @@ Features
 
 - MERN Stack: MongoDB, Express, React, and Node.js
 
-- Next.js: For server-side rendering and static site generation
-
 - Tailwind CSS: For styling the application
 
 - JavaScript: For the game logic
