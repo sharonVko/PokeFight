@@ -1,17 +1,15 @@
-### frontend
-
 # PokéFight
 
 Welcome to PokéFight, the ultimate Pokémon-themed card game! 🎮
 Team Members
 
-    tdolpz
+    [tdolpz](https://github.com/tdolpz)
 
-    Aero1004
+    [Aero1004](https://github.com/Aero1004)
 
-    SharonVko
+    [SharonVko]
 
-Overview
+## Overview
 
 PokéFight is an exciting game where players battle using Pokémon cards. It’s built using React, Tailwind CSS, JavaScript, Next.js, MongoDB, and the Pokémon API. The game’s design is based on our custom Figma prototype.
 Features
@@ -24,7 +22,7 @@ Features
 
     Score Tracking: The winner’s score is saved in a score list, and the champion is crowned.
 
-Technology Stack
+## Technology Stack
 
     MERN Stack: MongoDB, Express, React, and Node.js
 
@@ -38,8 +36,8 @@ Technology Stack
 
     Figma: For the design prototype
 
-Personal Touch
+## Personal Touch
 
 I’ve poured my heart into designing this game and matching the sounds to the gameplay, ensuring an immersive and enjoyable experience for all players. I hope you have as much fun playing as we all had creating it!
 
-![screenshot]
+![screenshot]()
