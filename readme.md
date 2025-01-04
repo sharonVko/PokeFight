@@ -8,13 +8,13 @@ Welcome to PokéFight, the ultimate Pokémon-themed card game! 🎮
 
 ### [Aero1004](https://github.com/Aero1004)
 
-### [SharonVko]
+### [SharonVko](https://github.com/sharonVko)
 
 ## Preview
 
 ![screenshot](./frontend/public/readmeScreenshots/Screenshot-Poke-Homeview.png)
 
-### Play [Pokefight]()
+### Play [Pokefight](https://pokefight-rhgw.onrender.com)
 
 ## Overview
 
