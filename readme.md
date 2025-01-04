@@ -9,6 +9,12 @@ Team Members
 
     [SharonVko]
 
+## Preview
+
+![screenshot](./frontend/public/readmeScreenshots/Screenshot-Poke-Homeview.png)
+
+### Play [Pokefight]()
+
 ## Overview
 
 PokéFight is an exciting game where players battle using Pokémon cards. It’s built using React, Tailwind CSS, JavaScript, Next.js, MongoDB, and the Pokémon API. The game’s design is based on our custom Figma prototype.
@@ -40,4 +46,7 @@ Features
 
 I’ve poured my heart into designing this game and matching the sounds to the gameplay, ensuring an immersive and enjoyable experience for all players. I hope you have as much fun playing as we all had creating it!
 
-![screenshot]()
+![sreenshot](./frontend/public/readmeScreenshots/Screenshot-Poke-Shuffleview.png)
+![screenshot](./frontend/public/readmeScreenshots/Screenshot-Poke-Fightview.png)
+![screenshot](./frontend/public/readmeScreenshots/Screenshot-Poke-Resultview.png)
+![screenshot](./frontend/public/readmeScreenshots/Screenshot-Poke-Scoreview.png)
